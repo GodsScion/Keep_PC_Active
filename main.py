@@ -27,7 +27,7 @@ def countdown(message, timeLeft):
         while timeLeft > 0:
             # pyautogui.move(+1, 0)
             # pyautogui.move(-1, 0)
-            pyautogui.press('altleft')  # Or replace with 'shiftleft' if you want to use Left Shift key instead of Left Alt key.
+            pyautogui.press('shiftleft')
             pyautogui.sleep(min(intervals, timeLeft))
             timeLeft -= intervals
         h = int(extend_time/3600)
