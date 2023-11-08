@@ -1,2 +1,5 @@
-# Keep_PC_active
-Prevent your computer from sleeping. Use it only when you're away from keyboard.
+# Prevent PC from sleeping
+
+Keep your computer Always active. 
+
+Adviced to use it only when you're away from keyboard.
