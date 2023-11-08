@@ -1,25 +1,12 @@
 '''
-Author: Sai Vignesh Golla
-LinkedIn: https://www.linkedin.com/in/saivigneshgolla
-Version: 1.0.0
+Author:     Sai Vignesh Golla
+LinkedIn:   https://www.linkedin.com/in/saivigneshgolla
+Version:    1.0.0
 '''
-
-########################### Config ###########################
-
-# Total time the program needs to run in seconds
-total_time =    8*60*60 + 30*60 + 0
-
-# Time between each press in seconds
-intervals =     30
-
-# How many seconds would you like to extend time when asked?
-extend_time =   1*60*60
-
-##############################################################
-
 
 import pyautogui
 pyautogui.FAILSAFE = False
+from config import *
 
 def countdown(message, timeLeft):
     try:
