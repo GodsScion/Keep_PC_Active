@@ -14,7 +14,7 @@ def countdown(message, timeLeft):
         while timeLeft > 0:
             # pyautogui.move(+1, 0)
             # pyautogui.move(-1, 0)
-            pyautogui.press('shiftleft')
+            pyautogui.press('shiftright')
             pyautogui.sleep(min(intervals, timeLeft))
             timeLeft -= intervals
         h = int(extend_time/3600)

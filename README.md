@@ -1,5 +1,5 @@
 ## Prevent your PC from Sleeping
-Keep your computer always active. This program presses 'Left Shift' key in perodic intervals set by user, which is a relatively harmless key in terms of interuptions to user's PC usage.
+Keep your computer always active. This program presses 'Right Shift' key in periodic intervals set by user, which is a relatively harmless key in terms of interruptions to user's PC usage.
 
 ### Requirements
 * [Python 3](https://www.python.org/) or above. Visit https://www.python.org/downloads/ to download and install Python.
