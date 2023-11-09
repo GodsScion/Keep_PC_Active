@@ -2,8 +2,8 @@
 Keep your computer always active. This program presses 'Left Shift' key in perodic intervals set by user, which is a relatively harmless key in terms of interuptions to user's PC usage.
 
 ### Requirements
-* Python 3 or above. Visit https://www.python.org/downloads/ to download and install Python.
-* Pyautogui library. Once Python is installed use package manager pip to install pyautogui library.
+* [Python 3](https://www.python.org/) or above. Visit https://www.python.org/downloads/ to download and install Python.
+* [PyAutoGUI](https://pypi.org/project/PyAutoGUI/) package. Once Python is installed, in a console or shell, use the [pip](https://pip.pypa.io/en/stable) command-line tool to install pyautogui package.
   ```
   pip install pyautogui
   ```
