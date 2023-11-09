@@ -4,7 +4,7 @@
 total_time =    8*60*60 + 30*60 + 0
 
 # Time between each press in seconds
-intervals =     60
+intervals =     30
 
 # How many seconds would you like to extend time when asked?
 extend_time =   1*60*60
