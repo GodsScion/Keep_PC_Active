@@ -9,7 +9,7 @@ Keep your computer always active. This program presses 'Right Shift' key in peri
   ```
 
 ### Usage
-* After installation, if you want to configure the program, open config.py in a editor to change values.
+* After installation, if you want to configure the program, open config.py in a editor to change values. Current defaults are...
 * Run main.py file. You can either open it using Python or some other IDE of your choice, have fun!
 
 ### Disclaimer 
