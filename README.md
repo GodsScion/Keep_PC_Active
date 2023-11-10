@@ -2,8 +2,8 @@
 Keep your computer always active. This program presses 'Right Shift' key in periodic intervals set by user, which is a relatively harmless key in terms of interruptions to user's PC usage.
 
 ### Requirements
-* [Python 3](https://www.python.org/) or above. Visit https://www.python.org/downloads/ to download and install Python.
-* [PyAutoGUI](https://pypi.org/project/PyAutoGUI/) package. Once Python is installed, in a console or shell, use the [pip](https://pip.pypa.io/en/stable) command-line tool to install pyautogui package.
+* [Python 3](https://www.python.org/) or above. Visit https://www.python.org/downloads/ to download and install Python, or for windows you could visit Microsoft Store and search for "Python".
+* [PyAutoGUI](https://pypi.org/project/PyAutoGUI/) package. After Python is installed, in a console or shell, use the [pip](https://pip.pypa.io/en/stable) command-line tool to install pyautogui package.
   ```
   pip install pyautogui
   ```
