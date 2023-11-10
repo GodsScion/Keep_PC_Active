@@ -10,8 +10,11 @@ Keep your computer always active. This program presses 'Right Shift' key in peri
 
 ### Usage
 * After installation, if you want to configure the program, open config.py in a editor to change values. Current defaults are...
-    ![defaults image](https://github.com/GodsScion/Keep_PC_Active/assets/100998531/5387f904-a31d-432a-a569-a1faeb4380cc)
+
+  ![defaults image](https://github.com/GodsScion/Keep_PC_Active/assets/100998531/5387f904-a31d-432a-a569-a1faeb4380cc)
+
 * Run main.py file. You can either open it using Python or some other IDE of your choice, have fun!
+
 
 ### Disclaimer 
 **This program is for educational purposes only. By downloading, using, copying, replicating, or interacting with this program or its code, you agree that the creators and contributors of this program are not responsible or liable for any misuse, damages, or legal implications resulting from its usage.**
