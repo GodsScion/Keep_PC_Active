@@ -1,7 +1,7 @@
 '''
 Author:     Sai Vignesh Golla
 LinkedIn:   https://www.linkedin.com/in/saivigneshgolla
-Version:    1.1.0
+Version:    1.1.1
 '''
 
 import pyautogui
@@ -19,16 +19,19 @@ def convertTime(secs):
 
 def printTimeLeft(timeLeft):
     h, m, s = convertTime(timeLeft)
-    print("Time Left: {} hr {} min".format(h,m), end="\r") if h > 0 or m > 0 else print("Less than a minute left...", end="\r")
+    print("Time Left: {} hr {} min          ".format(h,m), end="\r") if h > 0 or m > 0 else print("Less than a minute left...          ", end="\r")
 
 def countdown(timeLeft):
+    printTimeLeft(timeLeft)
+    updateInterval = 60
     while timeLeft > 0:
         currentInterval = intervals
         actions()
-        while currentInterval >= 60:
+        while currentInterval >= updateInterval:
             printTimeLeft(timeLeft)
-            pyautogui.sleep(60)
-            currentInterval -= 60
+            pyautogui.sleep(updateInterval)
+            timeLeft -= updateInterval
+            currentInterval -= updateInterval
         pyautogui.sleep(min(currentInterval, timeLeft))
         timeLeft -= currentInterval
         printTimeLeft(timeLeft)
