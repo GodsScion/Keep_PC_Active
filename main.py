@@ -45,7 +45,5 @@ if __name__ == "__main__":
         h, m, s = convertTime(total_time)
         print("Program started. Will run for  {} hr {} min {} sec.\nFeel free to minimize the screen and carry on with your work.\nWhen done press 'Ctrl + C' or close this window to exit.\n...".format(h, m, s))
         countdown(total_time)
-    except KeyboardInterrupt:
-        print("Script terminated by the user")
-    except Exception as error:
-        print("Error Occurred! ",error)
+    except KeyboardInterrupt:   print("Script terminated by the user")
+    except Exception as error:  print("Error Occurred! ",error)
