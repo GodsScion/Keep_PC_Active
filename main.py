@@ -1,7 +1,7 @@
 '''
 Author:     Sai Vignesh Golla
 LinkedIn:   https://www.linkedin.com/in/saivigneshgolla
-Version:    1.1.1
+Version:    2.0
 '''
 
 import pyautogui
