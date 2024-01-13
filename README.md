@@ -20,4 +20,4 @@ Keep your computer always active. This program presses 'Right Shift' key in peri
 **This program is for educational purposes only. By downloading, using, copying, replicating, or interacting with this program or its code, you agree that the creators and contributors of this program are not responsible or liable for any misuse, damages, or legal implications resulting from its usage.**
 
 ### License
-This program is released under the [MIT License](LICENSE).
+This program is released under [MIT License](LICENSE).
