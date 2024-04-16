@@ -8,7 +8,9 @@ import pyautogui
 pyautogui.FAILSAFE = False
 from config import *
 
-def actions():  pyautogui.press('shiftright')
+# All the actions to be performed per interval goes into this function
+def actions():
+    pyautogui.press('shiftright')
 
 def convertTime(secs):
     h = int(secs/3600)
