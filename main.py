@@ -8,7 +8,7 @@ import pyautogui
 pyautogui.FAILSAFE = False
 from config import *
 
-# All the actions to be performed per interval goes into this function
+# All the actions to be performed per interval goes here
 def actions():
     pyautogui.press('shiftright')
 
